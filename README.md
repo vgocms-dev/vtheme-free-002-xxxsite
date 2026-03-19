@@ -66,7 +66,7 @@ npm run build
 ### Cài đặt Systemd Service
 
 ```bash
-nano /etc/systemd/system/vgocms.service
+nano /etc/systemd/system/vgocmstheme002.service
 
 ```
 
@@ -91,8 +91,8 @@ WantedBy=multi-user.target
 
 ```bash
 systemctl daemon-reload
-systemctl enable vgocms
-systemctl start vgocms
+systemctl enable vgocmstheme002
+systemctl start vgocmstheme002
 
 ```
 
